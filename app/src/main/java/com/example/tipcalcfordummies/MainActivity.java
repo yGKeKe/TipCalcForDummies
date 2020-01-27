@@ -1,3 +1,8 @@
+/*Application: Tip Calc For Dummies
+  Author: Michael Lord
+  Version: 1.0
+  Date: 1/26/2020
+ */
 package com.example.tipcalcfordummies;
 
 import androidx.annotation.StringRes;
