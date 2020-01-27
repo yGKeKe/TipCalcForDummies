@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tip Calculator</string>
+    <string name="strBilledAmount">Amount Billed: </string>
+    <string name="strPercentToTip">Percent to Tip: </string>
+    <string name="strOne">1</string>
+    <string name="strTwo">2</string>
+    <string name="strThree">3</string>
+    <string name="strFour">4</string>
+    <string name="strFive">5</string>
+    <string name="strSix">6</string>
+    <string name="strSplitBill">Split Bill? </string>
+    <string name="strBillTotal">Bill Total: </string>
+    <string name="strAMountDue">Amount Due Per Person: </string>
+    <string name="strCalcTip">Calculate Tip!</string>
+    <string name="strTipTotal">Tip Amount: </string>
+</resources>
