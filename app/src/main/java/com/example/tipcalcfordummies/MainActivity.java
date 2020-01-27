@@ -75,13 +75,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void butCalcTip(View view){
-        if(TextUtils.isEmpty(editBilledAmount.getText()) == false){
+        if(!TextUtils.isEmpty(editBilledAmount.getText())){
             amountBilled = getDouble(editBilledAmount);
         }else{
             toastDecError.show();
         }
 
-        if(editTipPercent.getText().toString().isEmpty() == false){
+        if(!editTipPercent.getText().toString().isEmpty()){
             tipPercentage = getDouble(editTipPercent);
         }else{
             toastIntError.show();
@@ -91,6 +91,8 @@ public class MainActivity extends AppCompatActivity {
         double billTotal = amountBilled + tipTotal;
         double perPerson = billTotal / partyCount;
         editTipAmount.setText(tipTotal+"");
+        editBillTotal.setText(billTotal+"");
+        editAmountDue.setText(perPerson+"");
     }
 
 }
