@@ -47,10 +47,17 @@
             android:id="@+id/editTipPercent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="25dp"
             android:layout_weight="2"
+            android:layout_marginEnd="4dp"
             android:ems="10"
             android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/textPercentSign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/strPercentSign" />
     </LinearLayout>
 
     <LinearLayout

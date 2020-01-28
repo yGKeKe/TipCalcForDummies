@@ -13,4 +13,5 @@
     <string name="strAMountDue">Amount Due Per Person: </string>
     <string name="strCalcTip">Calculate Tip!</string>
     <string name="strTipTotal">Tip Amount: </string>
+    <string name="strPercentSign">%</string>
 </resources>
