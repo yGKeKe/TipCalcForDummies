@@ -14,7 +14,7 @@
 
         <TextView
             android:id="@+id/textBilledAmount"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
             android:layout_weight="2"
@@ -22,12 +22,18 @@
 
         <EditText
             android:id="@+id/editBilledAmount"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="25dp"
-            android:layout_weight="2"
+            android:layout_weight="5"
+            android:layout_marginStart="10dp"
             android:ems="10"
             android:inputType="numberDecimal" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -37,7 +43,7 @@
 
         <TextView
             android:id="@+id/textTipAmount"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
             android:layout_weight="2"
@@ -45,16 +51,16 @@
 
         <EditText
             android:id="@+id/editTipPercent"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:layout_marginEnd="4dp"
+            android:layout_weight="5"
+            android:layout_marginStart="10dp"
             android:ems="10"
             android:inputType="numberDecimal" />
 
         <TextView
             android:id="@+id/textPercentSign"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/strPercentSign" />
@@ -67,19 +73,18 @@
 
         <TextView
             android:id="@+id/textSplit"
-            android:layout_width="266dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
             android:layout_marginTop="15dp"
-            android:layout_weight="2"
+            android:layout_weight="4"
             android:text="@string/strSplitBill" />
 
         <RadioGroup
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_marginEnd="25dp"
-            android:layout_weight="2"
+            android:layout_weight="1"
             android:orientation="horizontal">
 
             <RadioButton
@@ -101,8 +106,8 @@
                 android:id="@+id/radioButton3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/strThree"
-                android:onClick="onRadioButtonClicked" />
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/strThree" />
 
             <RadioButton
                 android:id="@+id/radioButton4"
@@ -125,6 +130,11 @@
                 android:text="@string/strSix"
                 android:onClick="onRadioButtonClicked" />
         </RadioGroup>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
     </LinearLayout>
 
     <LinearLayout
@@ -134,7 +144,7 @@
 
         <TextView
             android:id="@+id/textTipTotal"
-            android:layout_width="59dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
             android:layout_weight="2"
@@ -142,12 +152,17 @@
 
         <EditText
             android:id="@+id/editTipAmount"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="25dp"
-            android:layout_weight="1"
+            android:layout_weight="5"
+            android:layout_marginStart="10dp"
             android:ems="10"
             android:inputType="numberDecimal" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
     </LinearLayout>
 
     <LinearLayout
@@ -157,7 +172,7 @@
 
         <TextView
             android:id="@+id/textBillTotal"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:layout_marginStart="25dp"
@@ -165,12 +180,17 @@
 
         <EditText
             android:id="@+id/editBillTotal"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="25dp"
-            android:layout_weight="1"
+            android:layout_weight="5"
+            android:layout_marginStart="10dp"
             android:ems="10"
             android:inputType="numberDecimal" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
     </LinearLayout>
 
     <LinearLayout
@@ -180,20 +200,26 @@
 
         <TextView
             android:id="@+id/textAmountDue"
-            android:layout_width="57dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
+            android:layout_marginBottom="10dp"
             android:layout_weight="2"
             android:text="@string/strAMountDue" />
 
         <EditText
             android:id="@+id/editAmountDue"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="25dp"
-            android:layout_weight="1"
+            android:layout_weight="5"
+            android:layout_marginStart="10dp"
             android:ems="10"
             android:inputType="numberDecimal" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
     </LinearLayout>
 
     <Button
